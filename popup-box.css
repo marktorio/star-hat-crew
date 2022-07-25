@@ -1,0 +1,69 @@
+.pop-up {
+    position: absolute;
+    width: 40%;
+    height: 70vh;
+    background: #fff;
+    border-radius: 24px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0.1);
+    text-align: center;
+    padding: 10px 0 0 0;
+    visibility: hidden;
+    transition: transform 0.4s top 0.4s;
+    box-shadow: 0 0 4px #888888;
+}
+.open-popup {
+    top: 100%;
+    visibility: visible;
+    transform: translate(-50%, -50%)scale(1);
+}
+.info {
+    margin-right: 200px ;
+}
+.row p {
+    border: 0px solid silver;
+    font-size: 12px;
+}
+#luffy-pic {
+    width: 30%;
+    height: 25%;
+    border-radius: 24px;
+}
+.luffy-btn {
+    border: 0px;
+    border-radius: 12px;
+    box-shadow: 0 0 4px #888888;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn {
+    box-shadow: 0 0 4px #888888;
+    margin-top: -12px;
+}
+@media all and (max-width: 801px) {
+    .row p {
+        padding: 0 20px 0 20px;
+    }
+    #luffy-pic {
+        width: 50%;
+        height: 25%;
+        border-radius: 24px;
+    }
+}
+@media all and (max-width: 661px) {
+    .row p {
+        margin: 7px;
+        padding-right: 27px;
+    }
+    .luffy-btn {
+        width: 150px;
+    }
+    #luffy-pic {
+        width: 60%;
+        height: 25%;
+        border-radius: 24px;
+    }
+}

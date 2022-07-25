@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="popup-box.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>One Piece</title>
+  </head>
+  <body>
+    <div id="wallpaper" class="text-center">
+      <h1 id="cover-text" class="text-center">STRAW HAT PIRATES</h1>
+    </div>
+    <! -- One piece Pictures -->
+    <h1 class="text-center">STRAW HAT PIRATES MEMBERS</h1>
+    <div id="portfolio " class="straw-hat">
+      <! --Luffy Picture -->
+      <div class="luffy text-center">
+        <img class="rounded-circle" src="images/luffy.jpg" alt="luffy" />
+        <div class="overlay">
+          <button type="submit" class="btn" onclick="openPopup()">
+            View more
+          </button>
+          <div class="pop-up" id="popup">
+            <img id="luffy-pic" src="images/luffy.jpg" alt="luffy" />
+            <h5 class="luffy-name">Monkey D. Luffy</h5>
+            <div class="row" id="info">
+              <p class="col-12">Epithet : “Staw Hat Luffy”</p>
+              <p class="col-12">Birthday : May 15th</p>
+              <p class="col-12">Age : 19</p>
+              <p class="col-12">Height : 174 cm</p>
+              <p class="col-12">B. Type : F</p>
+              <p class="col-12">Debut : Chapter 1</p>
+              <p class="col-12">Position : Captain, Leader of Grand Fleet</p>
+              <p class="col-12">Devil Fruit : Gomu Gomu no mi</p>
+              <p class="col-12">Home-Town : Fooshia Village East Blue</p>
+            </div>
+            <button class="luffy-btn" type="submit" onclick="closePopup()">
+              Close
+            </button>
+          </div>
+        </div>
+        <h3>Monkey D. Luffy</h3>
+        <p class="font-italic">Captain</p>
+      </div>
+      <div class="straw-hat-crew text-center">
+        <! --Jimbei Picture -->
+        <div class="">
+          <img class="rounded-circle" src="images/jimbei.jpg" alt="jimbei" />
+          <h3>Jimbei</h3>
+          <p class="font-italic">Helmsman</p>
+        </div>
+        <! --Zoro Picture -->
+        <div class="">
+          <img class="rounded-circle" src="images/zoro.jpg" alt="zoro" />
+          <h3>Roronoa Zoro</h3>
+          <p class="font-italic">Sworsman</p>
+        </div>
+        <! --Sanji Picture -->
+        <div class="">
+          <img class="rounded-circle" src="images/sanji.jpg" alt="sanji" />
+          <h3>Vinsmoke Sanji</h3>
+          <p class="font-italic">Chef</p>
+        </div>
+        <! --Brook Picture -->
+        <div class="">
+          <img class="rounded-circle" src="images/brook.jpg" alt="brook" />
+          <h3>Brook</h3>
+          <p class="font-italic">Musician</p>
+        </div>
+        <! --Chopper Picture -->
+        <div class="">
+          <img class="rounded-circle" src="images/chopper.jpg" alt="chopper" />
+          <h3>Tony Tony Chopper</h3>
+          <p class="font-italic">Doctor</p>
+        </div>
+        <! --Robin Picture -->
+        <div class="">
+          <img class="rounded-circle" src="images/robin.jpg" alt="robin" />
+          <h3>Nico Robin</h3>
+          <p class="font-italic">Archeologist</p>
+        </div>
+        <! --Franky Picture -->
+        <div class="">
+          <img class="rounded-circle" src="images/franky.jpg" alt="franky" />
+          <h3>Franky</h3>
+          <p class="font-italic">Shipwright</p>
+        </div>
+        <! --Nami Picture -->
+        <div class="">
+          <img class="rounded-circle" src="images/nami.jpg" alt="nami" />
+          <h3>Nami</h3>
+          <p class="font-italic">Navigator</p>
+        </div>
+        <! --Usopp Picture -->
+        <div class="">
+          <img class="rounded-circle" src="images/usopp.jpg" alt="usopp" />
+          <h3>Usopp</h3>
+          <p class="font-italic">Sniper</p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>
+        &copy; &nbsp; Copyright 2021-2022 by Kurutta. &nbsp;All Rights Reserved.
+      </p>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
